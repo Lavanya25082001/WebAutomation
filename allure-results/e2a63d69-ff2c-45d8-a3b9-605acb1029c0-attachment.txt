@@ -1,0 +1,10 @@
+{
+  "script": "return (function getHTML(element, includeSelectorTag) {\n    return element[includeSelectorTag ? 'outerHTML' : 'innerHTML'];\n}).apply(null, arguments)",
+  "args": [
+    {
+      "element-6066-11e4-a52e-4f735466cecf": "f.6D1CC3CD02A6F33A4E89AB16B7765DC5.d.4E6DF7FDFC1B02B48FC8A015A1D896ED.e.121",
+      "ELEMENT": "f.6D1CC3CD02A6F33A4E89AB16B7765DC5.d.4E6DF7FDFC1B02B48FC8A015A1D896ED.e.121"
+    },
+    true
+  ]
+}
