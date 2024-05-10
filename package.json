@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "wdio": "npx wdio run ./wdio.conf.js",
+    "wdio": "npx wdio run ./wdio.conf.js --spec ./specs/Login.spec.js",
     "report": "allure generate allure-results --clean -o allure-report && allure open allure-report"
   },
   "keywords": [],
